@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80vw; /* 80% da largura da janela */
+    height: 80vh; /* 80% da altura da janela */
+    margin: 10vh auto; /* Margem superior e inferior de 10% da altura da janela, e centralizado horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #f50c18; /* Vermelho SHEIN */
+    text-align: center;
+    padding: 50px 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn-sim {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#btn-nao {
+    background-color: #f44336;
+    color: #fff;
+ 
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
